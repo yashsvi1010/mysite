@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+html {
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home {
+  background-color: #ddebecdd;
+  padding: 0 4rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home-text p {
+  font-size: 1.8rem;
 }
+.card-img-top {
+  box-sizing: border-box;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: 3px solid #293c74ed;
+  animation: rotate-animation 10s infinite linear;
+  object-fit: cover;
+  background-image: url(../public/images/profile_img.png);
+  background-size: cover;
+  background-position: 50%;
+
+  background-repeat: no-repeat;
+  height: 25rem;
+  position: relative;
+  width: 25rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes rotate-animation {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+.about-image {
+  height: 25rem;
+  position: relative;
+  width: 25rem;
+}
+h1 {
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-weight: 700;
+}
+@media (max-width: 900px) {
+  .home {
+    height: auto;
+    padding: 11rem 0;
+    font-size: 4rem;
+  }
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 3rem;
   }
 }
