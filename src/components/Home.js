@@ -3,27 +3,29 @@ import React from "react";
 function Home() {
   return (
     <>
-      <section
-        className="d-flex"
-        id="home"
-        style={{
-          flexDirection: "column",
-          height: "100vh",
-          position: "relative",
-        }}
-      >
-        <div className="container ms-auto my-2 home">
-          <div className="container text-center">
-            <div className="row align-items-center">
-              <div className="col my-3 home-text">
-                <h1>Front-End React Developer</h1>
+      <section className="home-sec" id="home">
+        <div className="container">
+          <div className="content home-content">
+            <div className="home-items">
+              <div className="home-text">
+                <h2>Front-End React Developer</h2>
                 <p>
                   Hi, I'm Yashsvi Singh. A passionate Front-end React Developer
                   based in India.
                 </p>
+                <span></span>
               </div>
-              <div className="col col-image">
-                <div className="image card-img-top"></div>
+              <div className="home-img"></div>
+            </div>
+            <div className="skills">
+              <p>Tech Stack</p>
+              <div className="skill-logo">
+                <ul>
+                  <li>Html</li>
+                  <li>CSS</li>
+                  <li>JS</li>
+                  <li>React</li>
+                </ul>
               </div>
             </div>
           </div>

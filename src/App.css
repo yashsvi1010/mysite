@@ -2,16 +2,57 @@ html {
   scroll-behavior: smooth;
 }
 
-.home {
-  background-color: #ddebecdd;
-  padding: 0 4rem;
-}
-.home-text p {
-  font-size: 1.8rem;
-}
-.card-img-top {
+section {
   box-sizing: border-box;
 
+  margin-bottom: 2rem;
+  padding-top: 10rem;
+  padding-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.hero-content {
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+/* Navbar- anchor buttons */
+.nav-link {
+  margin: 10px 20px;
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+.nav-link:hover {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+.nav-link:active {
+  transform: translateY(-1px);
+  transition: all 0.3s ease 0s;
+}
+
+/* Home Image */
+.home-img {
   align-items: center;
   border: 3px solid #293c74ed;
   animation: rotate-animation 10s infinite linear;
@@ -19,13 +60,11 @@ html {
   background-image: url(../public/images/profile_img.png);
   background-size: cover;
   background-position: 50%;
-
   background-repeat: no-repeat;
   height: 25rem;
   position: relative;
   width: 25rem;
 }
-
 @keyframes rotate-animation {
   0% {
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
@@ -38,26 +77,41 @@ html {
   }
 }
 
-.about-image {
-  height: 25rem;
+.home-items {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6rem;
+  justify-content: center;
   position: relative;
-  width: 25rem;
-}
-h1 {
-  line-height: 1.2;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-  font-weight: 700;
 }
 @media (max-width: 900px) {
-  .home {
+  .home-items {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 3rem;
+  }
+  .content {
+    gap: 3rem;
     height: auto;
-    padding: 11rem 0;
-    font-size: 4rem;
+    text-align: center;
+    height: auto;
+    margin-top: 14rem;
+  }
+  .home-sec {
+    height: auto;
+    padding: 8rem 0;
   }
 }
-@media (max-width: 500px) {
-  h1 {
-    font-size: 3rem;
+
+@media (max-width: 460px) {
+  .container {
+    padding: 0 1.7rem;
   }
+}
+
+/* Footer */
+.content-footer {
+  justify-content: center;
+  display: flex;
 }
