@@ -14,8 +14,8 @@ function Navbar() {
         style={{ boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px" }}
       >
         <div className="container-fluid">
-          <a className="navbar-brand" href="#home">
-            Yashsvi.dev
+          <a className="navbar-brand fw-bolder" href="#home">
+            <h2>Yashsvi.dev</h2>
           </a>
           <button
             className="navbar-toggler "

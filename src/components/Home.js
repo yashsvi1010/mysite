@@ -4,11 +4,11 @@ function Home() {
   return (
     <>
       <section className="home-sec" id="home">
-        <div className="container">
+        <div className="container home-container">
           <div className="content home-content">
-            <div className="home-items">
+            <div className="items home-items">
               <div className="home-text">
-                <h2>Front-End React Developer</h2>
+                <h2 className="fw-bolder">Front-End React Developer</h2>
                 <p>
                   Hi, I'm Yashsvi Singh. A passionate Front-end React Developer
                   based in India.
@@ -18,13 +18,27 @@ function Home() {
               <div className="home-img"></div>
             </div>
             <div className="skills">
-              <p>Tech Stack</p>
+              <p className="fs-4 fw-bolder">Tech Stack</p>
               <div className="skill-logo">
                 <ul>
-                  <li>Html</li>
-                  <li>CSS</li>
-                  <li>JS</li>
-                  <li>React</li>
+                  <li>
+                    <img
+                      src={require("../images/html-logo-img.png")}
+                      alt="html"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src={require("../images/css-logo-img.png")}
+                      alt="css"
+                    />
+                  </li>
+                  <li>
+                    <img src={require("../images/js-logo-img.png")} alt="" />
+                  </li>
+                  <li>
+                    <img src={require("../images/react-logo-img.png")} alt="" />
+                  </li>
                 </ul>
               </div>
             </div>

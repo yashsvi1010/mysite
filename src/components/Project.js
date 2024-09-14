@@ -6,8 +6,14 @@ function Projects() {
       <section id="projects">
         <div className="container">
           <div className="content proj-content">
-            <div className="items">
-              <div className="about-img">Image</div>
+            <h3
+              className="fw-bolder"
+              style={{ borderBottom: " 2px solid rgba(45, 46, 50, 0.5)" }}
+            >
+              Portfolio
+            </h3>
+            <div className="proj-items">
+              <div className="about-img-1">Image</div>
               <div className="about-text">
                 <h4>Project 1</h4>
                 <p>
@@ -32,7 +38,13 @@ function Projects() {
                 </div>
               </div>
               {/* Project -2 */}
-              <div className="about-img">Image</div>
+              <div className="about-img-2">
+                <img
+                  src={require("../images/notepad-proj-img.jpg")}
+                  alt=""
+                  style={{ height: " 20rem", width: "20rem" }}
+                />
+              </div>
               <div className="about-text">
                 <h4>Project 2</h4>
                 <p>
