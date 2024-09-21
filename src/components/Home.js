@@ -34,10 +34,13 @@ function Home() {
                     />
                   </li>
                   <li>
-                    <img src={require("../images/js-logo-img.png")} alt="" />
+                    <img src={require("../images/js-logo-img.png")} alt="JS" />
                   </li>
                   <li>
-                    <img src={require("../images/react-logo-img.png")} alt="" />
+                    <img
+                      src={require("../images/react-logo-img.png")}
+                      alt="React"
+                    />
                   </li>
                 </ul>
               </div>

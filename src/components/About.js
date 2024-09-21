@@ -19,12 +19,12 @@ function About() {
                 />
               </div>
               <div className="about-text">
-                <h4
+                <h2
                   className="fw-bolder"
                   style={{ borderBottom: " 2px solid rgba(45, 46, 50, 0.5)" }}
                 >
                   About me
-                </h4>
+                </h2>
                 <h3>Front-end Developer based in India 📍</h3>
                 <p style={{ textAlign: "left" }}>
                   As a Junior Front-End Developer, I possess an impressive

@@ -2,16 +2,16 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: Poppins, sans-serif;
-  width: fit-content;
+  font-family: "SUSE", sans-serif;
 }
+
 section {
   margin-top: -10rem;
   margin-bottom: 3rem;
   box-sizing: border-box;
   padding-top: 12rem;
   padding-bottom: 3rem;
-
+  display: flex;
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
@@ -88,7 +88,7 @@ ul {
   border: 3px solid #293c74ed;
   animation: rotate-animation 10s infinite linear;
   object-fit: cover;
-  background-image: url(../public/images/profile_img.png);
+  background-image: url(../src/images/my-img.jpg);
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
@@ -111,7 +111,6 @@ ul {
 .items {
   align-items: center;
   display: flex;
-
   gap: 4rem;
   justify-content: center;
   position: relative;
@@ -126,11 +125,56 @@ ul {
   list-style: none;
 }
 .skills ul li img {
-  width: 4rem;
-  height: 4rem;
+  width: 3rem;
+  height: 3rem;
 }
 /* About  */
 .about-sec {
+  display: flex;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 6rem; */
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Project comp  */
+.proj-1 {
+  flex-direction: row-reverse;
+}
+.proj-container {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.skill-used ul {
+  padding-left: 0;
+  text-align: start;
+  display: inline-flex;
+  gap: 1rem;
+}
+/* Contact  */
+.contact-sec {
+  flex-wrap: wrap;
+
+  justify-content: center;
+  text-align: center;
+}
+.contact-content {
+  padding: 3rem;
+}
+.container-details {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+/* Footer */
+.content-footer {
+  padding: 4rem;
+  justify-content: center;
   display: flex;
 }
 
@@ -179,35 +223,23 @@ ul {
     height: auto;
     width: auto;
   }
+  .proj-1 {
+    flex-direction: column;
+  }
 }
 @media (max-width: 460px) {
+  body {
+    width: fit-content;
+  }
   .container {
     padding: 0 1.5rem;
   }
 }
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  /* gap: 6rem; */
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* .about-items {
-  align-items: center;
-} */
-/* Project comp  */
-.proj-items {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6rem;
-  justify-content: center;
-  position: relative;
-}
-/* Footer */
-.content-footer {
-  justify-content: center;
-  display: flex;
+@media (max-width: 550px) {
+  .content-footer {
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    text-align: center;
+  }
 }
