@@ -21,8 +21,15 @@ function Contact() {
                 <p>📍 UP, India </p>
               </div>
               <div className="contact-mail">
-                <h3>Mail</h3>
-                <p>yashsvisingh97@gmail.com</p>
+                <h3>
+                  <i class="fa-solid fa-envelope"></i> Mail us
+                </h3>
+                <a
+                  className="contact-mail"
+                  href="mailto:yashsvisingh97@gmail.com"
+                >
+                  yashsvisingh97@gmail.com
+                </a>
               </div>
             </div>
           </div>

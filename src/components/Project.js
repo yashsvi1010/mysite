@@ -10,7 +10,7 @@ function Projects() {
               className=" fw-bolder"
               style={{ borderBottom: " 2px solid rgba(45, 46, 50, 0.5)" }}
             >
-              Portfolio
+              Projects
             </h2>
             <div className=" proj-items">
               <div className="container proj-container items proj-1">
@@ -26,7 +26,7 @@ function Projects() {
                   />
                 </div>
                 <div className="proj-text">
-                  <h3 className="fw-bold">Project 1</h3>
+                  <h3 className="fw-bold">BANQUE</h3>
                   <p>
                     Description- Lorem ipsum dolor sit amet, consectetur
                     adipisicing elit. Ut nobis obcaecati molestias labore nihil

@@ -171,6 +171,11 @@ ul {
   flex-direction: row;
   gap: 3rem;
 }
+.contact-mail {
+  color: #2d2e32;
+  text-decoration: none;
+  font: 1.7rem;
+}
 /* Footer */
 .content-footer {
   padding: 4rem;
