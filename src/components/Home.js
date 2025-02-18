@@ -11,8 +11,15 @@ function Home() {
                 <h2 className="fw-bolder">Front-End React Developer</h2>
                 <p>
                   Hi, I'm Yashsvi Singh. A passionate Front-end React Developer
-                  based in India.
+                  based in India.{" "}
                 </p>
+                <a
+                  href="https://github.com/yashsvi1010"
+                  style={{ textDecoration: "none", color: "black" }}
+                  target="_blank"
+                >
+                  <i className="fa-brands fa-github mx-3 fs-1"></i>
+                </a>
                 <span></span>
               </div>
               <div className="home-img"></div>
