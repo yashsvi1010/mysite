@@ -11,25 +11,29 @@ function Navbar() {
     <>
       <nav
         className="navbar sticky-top navbar-expand-lg  bg-body-tertiary h5 py-4"
-        style={{ boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px" }}
+        style={{
+          width: "100vw",
+          boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
+        }}
       >
         <div className="container-fluid">
           <a className="navbar-brand fw-bolder" href="#home">
             <h2>Yashsvi.dev</h2>
           </a>
           <button
-            className="navbar-toggler "
+            className="navbar-toggler me-4"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            style={{ height: "4rem", width: "4rem" }}
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon "></span>
           </button>
           <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
-            <div className="navbar-nav ms-auto">
+            <div className="navbar-nav ms-auto me-3">
               <a
                 className="nav-link active"
                 aria-current="page"

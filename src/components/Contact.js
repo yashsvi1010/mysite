@@ -22,7 +22,7 @@ function Contact() {
               </div>
               <div className="contact-mail">
                 <h3>
-                  <i class="fa-solid fa-envelope"></i> Mail us
+                  <i className="fa-solid fa-envelope"></i> Mail us
                 </h3>
                 <a
                   className="contact-mail"

@@ -1,8 +1,10 @@
 html {
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 body {
   font-family: "SUSE", sans-serif;
+  /* font-size: 62.5%; */
 }
 
 section {
@@ -146,6 +148,7 @@ ul {
 .proj-1 {
   flex-direction: row-reverse;
 }
+
 .proj-container {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -170,6 +173,10 @@ ul {
   display: flex;
   flex-direction: row;
   gap: 3rem;
+
+  @media (max-width: 550px) {
+    flex-direction: column;
+  }
 }
 .contact-mail {
   color: #2d2e32;
@@ -188,6 +195,7 @@ ul {
     padding-top: 12rem;
     margin-top: -25rem;
     margin-bottom: 4rem;
+    width: 100vw;
   }
   .home-container {
     width: 90%;
@@ -216,9 +224,9 @@ ul {
     line-height: 1.4;
   }
   .home-img {
-    height: 15rem;
+    height: 25rem;
 
-    width: 90%;
+    width: 50vw;
   }
   .skills ul {
     justify-content: center;
