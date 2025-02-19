@@ -32,6 +32,7 @@ function Projects() {
                     href="https://fooders-yashsvi.netlify.app/"
                     style={{ textDecoration: "none", color: "black" }}
                     target="_blank"
+                    rel="noreferrer"
                   >
                     Fooders
                     <i className="fa-solid fa-arrow-up-right-from-square mx-3"></i>
@@ -78,6 +79,7 @@ function Projects() {
                     href="https://banque-yashsvi.netlify.app/"
                     style={{ textDecoration: "none", color: "black" }}
                     target="_blank"
+                    rel="noreferrer"
                   >
                     BANQUE
                     <i className="fa-solid fa-arrow-up-right-from-square mx-3"></i>
@@ -124,6 +126,7 @@ function Projects() {
                     className="fw-bold fs-2"
                     href="https://newhooter.netlify.app/"
                     style={{ textDecoration: "none", color: "black" }}
+                    rel="noreferrer"
                     target="_blank"
                   >
                     NewsHooter

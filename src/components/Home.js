@@ -16,6 +16,7 @@ function Home() {
                 <a
                   href="https://github.com/yashsvi1010"
                   style={{ textDecoration: "none", color: "black" }}
+                  rel="noreferrer"
                   target="_blank"
                 >
                   <i className="fa-brands fa-github mx-3 fs-1"></i>
