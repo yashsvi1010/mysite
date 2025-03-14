@@ -13,14 +13,27 @@ function Home() {
                   Hi, I'm Yashsvi Singh. A passionate Front-end React Developer
                   based in India.{" "}
                 </p>
-                <a
-                  href="https://github.com/yashsvi1010"
-                  style={{ textDecoration: "none", color: "black" }}
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <i className="fa-brands fa-github mx-3 fs-1"></i>
-                </a>
+                <div className="social">
+                  <a
+                    href="https://github.com/yashsvi1010"
+                    style={{ textDecoration: "none", color: "black" }}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <i className="fa-brands fa-github mx-3 fs-1"></i>
+                  </a>
+                  <a
+                    href="www.linkedin.com/in/yashsvi-singh-28093b178"
+                    style={{ textDecoration: "none", color: "black" }}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <i
+                      className="fa-brands fa-linkedin mx-3 fs-1"
+                      style={{ color: "#3305bd" }}
+                    ></i>
+                  </a>
+                </div>
                 <span></span>
               </div>
               <div className="home-img"></div>

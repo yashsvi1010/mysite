@@ -10,25 +10,23 @@ function Navbar() {
   return (
     <>
       <nav
-        className="navbar sticky-top navbar-expand-lg  bg-body-tertiary h5 py-4"
+        className="navbar sticky-top navbar-expand-lg  bg-body-tertiary h5 "
         style={{
           width: "100vw",
-          boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px",
         }}
       >
-        <div className="container-fluid">
+        <div className="container-fluid px-3 py-2">
           <a className="navbar-brand fw-bolder" href="#home">
             <h2>Yashsvi.dev</h2>
           </a>
           <button
-            className="navbar-toggler me-4"
+            className="navbar-toggler "
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup"
             aria-expanded="false"
             aria-label="Toggle navigation"
-            style={{ height: "4rem", width: "4rem" }}
           >
             <span className="navbar-toggler-icon "></span>
           </button>

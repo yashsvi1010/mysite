@@ -4,6 +4,9 @@ html {
 }
 body {
   font-family: "SUSE", sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
   /* font-size: 62.5%; */
 }
 
@@ -21,6 +24,21 @@ ul {
   list-style-type: none;
 }
 /* Navbar */
+.navbar {
+  padding: 1.5rem 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  @media (max-width: 992px) {
+    padding: 0.5rem 0;
+  }
+}
+/* .navbar-toggler {
+  height: 4rem;
+  width: 4rem;
+  @media (max-width: 992px) {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+} */
 .navbar-brand h2 {
   margin-left: 2rem;
   margin-bottom: 0rem;
@@ -226,7 +244,7 @@ ul {
   .home-img {
     height: 20rem;
 
-    width: 50vw;
+    width: 60vw;
   }
   .skills ul {
     justify-content: center;
